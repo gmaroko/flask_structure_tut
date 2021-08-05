@@ -12,6 +12,5 @@ app_manager  = Manager(flask_app)
 
 app_manager.add_command("runserver", Server()) # start app
 
-
 if __name__ == "__main__":
     app_manager.run()
