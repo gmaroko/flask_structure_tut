@@ -1,0 +1,29 @@
+.
+├── app
+│   ├── core # module/blueprint
+│   │   ├── forms.py
+│   │   ├── __init__.py
+│   │   ├── models.py
+│   │   └── views.py
+│   ├── __init__.py
+│   ├── login # module/blueprint
+│   │   ├── forms.py
+│   │   ├── __init__.py
+│   │   ├── models.py
+│   │   └── views.py
+│   ├── signup # module/blueprint
+│   │   ├── forms.py
+│   │   ├── __init__.py
+│   │   ├── models.py
+│   │   └── views.py
+│   ├── static
+│   └── templates
+│       ├── core # module/blueprint templates
+│       ├── login # module/blueprint templates
+│       └── signup # module/blueprint templates
+├── config.cfg  # config file, use app.config.from_pyfile('config.cfg')
+├── manage.py # entry point
+├── Procfile  # process file for heroku/netlify/aws
+├── project_structure.txt  # this file
+├── README.md 
+└── requirements.txt  # dependancies file
